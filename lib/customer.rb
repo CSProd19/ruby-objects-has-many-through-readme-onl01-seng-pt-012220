@@ -12,6 +12,9 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end 
   
+  def meals()
+  end 
+  
   def self.all 
     @@all 
   end 
